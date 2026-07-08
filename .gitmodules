@@ -3,3 +3,9 @@
 	url = https://github.com/RosettaCommons/main
 	branch = interactive/runner
 	fetchRecurseSubmodules = false
+	# The Rosetta source tree is ~25 GB and is only needed to build the
+	# plugin from source. `update = none` keeps a recursive clone from
+	# pulling it: `cargo run` uses the committed prebuilt/ binary instead.
+	# The from-source recipe (scripts/build.sh) fetches it on demand with
+	# `submodule update --init --checkout`, which overrides this default.
+	update = none

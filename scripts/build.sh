@@ -15,9 +15,18 @@
 set -euo pipefail
 
 cmake_dir="$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source/cmake_4"
+
+# The Rosetta source is an opt-in submodule (marked `update = none` in
+# .gitmodules) so a plain clone never pulls its ~25 GB. Fetch it on demand for
+# this from-source build; --checkout overrides the `update = none` default.
 if [ ! -d "$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source" ]; then
-    echo "Rosetta source not found under deps/rosetta-interactive. \
-Make sure the rosetta-interactive submodule is initialized." >&2
+    echo "Fetching the rosetta-interactive source submodule (opt-in, ~25 GB)..."
+    git -C "$FOLDIT_PLUGIN_DIR" submodule update --init --checkout -- \
+        deps/rosetta-interactive
+fi
+if [ ! -d "$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source" ]; then
+    echo "Rosetta source still not found under deps/rosetta-interactive after \
+submodule init." >&2
     exit 1
 fi
 
