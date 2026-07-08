@@ -1,0 +1,5 @@
+[submodule "deps/rosetta-interactive"]
+	path = deps/rosetta-interactive
+	url = https://github.com/RosettaCommons/main
+	branch = interactive/runner
+	fetchRecurseSubmodules = false

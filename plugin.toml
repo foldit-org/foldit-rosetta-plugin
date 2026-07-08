@@ -1,0 +1,109 @@
+id = "rosetta"
+kind = "native"
+name = "Rosetta"
+order = 0
+uses_density = true
+
+[native]
+# Basename form — `PluginManifest::native_binary_name()` resolves this to
+# the platform-canonical shared-library file name (`librosetta_interactive.dylib`
+# on macOS, `librosetta_interactive.so` on Linux, `rosetta_interactive.dll`
+# on Windows). The Rosetta plugin shim exports `foldit_plugin_vtable` from
+# the existing `librosetta_interactive` dylib — there is no separate plugin
+# dylib; the shim is a C++ translation unit inside the rosetta-interactive
+# cmake build (see docs/PLUGIN_MIGRATION_PLAN.md Phase 5).
+binary = "rosetta_interactive"
+
+# Plugin-contributed panels. `entry`/`icon` are manifest-relative; the
+# frontend dynamically imports the ES module and auto-derives a launcher
+# button from each entry. The .mjs is built on demand
+# (`cargo xtask build-rosetta-panel`) and is not committed.
+[[panels]]
+id = "rama_map"
+title = "Rama Map"
+width = 320
+entry = "ui/dist/rama_map.mjs"
+icon = "assets/icons/rama.png"
+tooltip = "Ramachandran map"
+position_x = 16.0
+position_y = 64.0
+
+# User-facing buttons. Op-ids match the bridge's action_registry rows
+# (the `INT_NAME_ACTION_*` C-string constants from each Action header).
+# Icons are relative to this directory; the orchestrator resolves them
+# to absolute paths when building the catalog.
+# `hotkey` is the winit KeyCode debug spelling ("KeyW", not "W"). It
+# renders as a corner badge now; the key->dispatch routing is item 78
+# and is NOT wired yet: pressing the key does nothing today.
+# The three wiggle buttons auto-route per dispatch: with a residue
+# selection or an entity focus they run the local minimizer scoped to that
+# region, otherwise the global minimizer over the whole structure. Each
+# carries its own dof mode (all / backbone / sidechains) into either
+# engine. No selection_spec: the routed button stays enabled at rest and
+# falls back to a whole-structure wiggle.
+[[buttons]]
+op = "ActionGlobalMinimize"
+display = "Wiggle"
+icon = "assets/icons/wiggle_all.png"
+hotkey = "KeyW"
+tooltip = "Wiggle: energy-minimize the structure (gradient descent on the score)"
+
+[[buttons]]
+op = "ActionGlobalMinimizeBackbone"
+display = "Wiggle Backbone"
+icon = "assets/icons/wiggle_backbone.png"
+tooltip = "Wiggle Backbone: energy-minimize backbone dofs only"
+
+[[buttons]]
+op = "ActionGlobalMinimizeSidechains"
+display = "Wiggle Sidechains"
+icon = "assets/icons/wiggle_sidechains.png"
+tooltip = "Wiggle Sidechains: energy-minimize sidechain dofs only"
+
+[[buttons]]
+op = "ActionRepack"
+display = "Shake"
+icon = "assets/icons/shake.png"
+hotkey = "KeyS"
+tooltip = "Shake: repack sidechain rotamers to lower energy"
+
+[[buttons]]
+op = "ActionRepackDesign"
+display = "Shake Mutate"
+icon = "assets/icons/shake_mutate.png"
+hotkey = "KeyY"
+tooltip = "Shake Mutate: repack with mutations allowed (sequence design)"
+# Mutates sequence, so it is gated on the selection being fully designable.
+requires_designable = true
+# At least 1 selected residue: an empty selection has nothing to redesign,
+# so the button is unavailable until residues are picked.
+selection_spec = { min_residues = 1 }
+
+[[buttons]]
+op = "ActionIdealize"
+display = "Idealize"
+icon = "assets/icons/idealize_bonds.png"
+hotkey = "KeyE"
+tooltip = "Idealize: reset peptide-bond geometry to ideal values"
+# At least 2 selected residues, one contiguous run.
+selection_spec = { min_residues = 2, continuity = "contiguous" }
+
+[[buttons]]
+op = "ActionIdealizeSS"
+display = "Idealize SS"
+icon = "assets/icons/idealize_backbone.png"
+hotkey = "KeyG"
+tooltip = "Idealize SS: idealize geometry, targeting secondary structure"
+# At least 1 selected residue; no contiguity requirement.
+selection_spec = { min_residues = 1 }
+
+[[buttons]]
+op = "ActionRebuild"
+display = "Rebuild"
+icon = "assets/icons/rebuild.png"
+hotkey = "KeyB"
+tooltip = "Rebuild: rebuild backbone segments from the fragment library"
+# At least 1 selected residue; no contiguity requirement.
+selection_spec = { min_residues = 1 }
+# The stream renders as a discardable preview rather than mutating the entity.
+preview = true

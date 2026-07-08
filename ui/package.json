@@ -1,0 +1,19 @@
+{
+  "name": "rosetta-rama-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@foldit/plugin-bridge": "file:../../../../../webview/packages/plugin-bridge",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.21",
+    "vite-plugin-solid": "^2.11.10"
+  }
+}

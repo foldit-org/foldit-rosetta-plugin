@@ -67,3 +67,10 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Foldit rosetta plugin: build-installed Rosetta database (fetched/built, never committed)
+assets/database/
+
+# Foldit rosetta plugin: UI panel build artifacts
+ui/node_modules/
+ui/dist/
