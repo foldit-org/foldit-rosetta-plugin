@@ -1,0 +1,14 @@
+version: 1
+{
+# Config for early-phase intro puzzles, with a minimal interface
+ "puzzle_setup" : "intro"
+ "gui/simplified_filter_display" : "1"
+ "gui/disable_advanced_mode" : "1"
+ "gui/disable_tools_tab" : "1"
+ "gui/disable_action_options_tab" : "1"
+ "gui/disable_save_load" : "1"
+ "gui/disable_screenshot" : "1"
+ "gui/simple_undo" : "1"
+ "gui/disable_view_options" : "1"
+ "actions/ActionPullSidechain" : "1"
+}

@@ -1,0 +1,8 @@
+version: 1
+{
+# Config for most late-stage dojo puzzles.
+ "puzzle_setup" : "dojo"
+ "enable_blueprint": "1"
+ "use_rama_map" : "1"
+ "move_tool_mode" : "segment"
+}

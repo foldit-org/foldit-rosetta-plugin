@@ -1,0 +1,48 @@
+version: 1
+{
+# Base-line setups for most standard intro puzzles.
+  "move_tool_mode" : "none"
+  "allowed_macros" : "none"
+# Intended to be further overridden by other entries.
+  "gui/disable_tracks" : "1"
+  "gui/use_new_bubble_format" : "1"
+  "gui/start_with_selection_interface" : "1"
+  "gui/disable_interface_switch" : "1"
+  "gui/disable_action_options_tab" : "1"
+  "gui/disable_pull_pie_menu" : "1"
+  "gui/dont_launch_main_menu" : "1"
+# Defaults set explicitly for intro puzzles
+  "actions/ActionShowRamaMapPanel" : "0"
+  "actions/ActionShowNoteTool" : "0"
+  "actions/ActionShowStructureTool" : "0"
+  "actions/ActionSecStructDSSP" : "0"
+  "actions/ActionResetSecondaryStructure" : "0"
+# Defaults intended to be overridden if necessary.
+  "actions/ActionRepack" : "0"
+  "actions/ActionRepackDesign" : "0"
+  "actions/ActionGlobalMinimize" : "0"
+  "actions/ActionGlobalMinimizeBackbone" : "0"
+  "actions/ActionGlobalMinimizeSidechains" : "0"
+  "actions/ActionThreadCut" : "0"
+  "actions/ActionInsertCut" : "0"
+  "actions/ActionLocalMinimizePull" : "0"
+  "actions/ActionBandAddDrag" : "0"
+  "actions/ActionBandDelete" : "0"
+  "actions/ActionBandEnableAll" : "0"
+  "actions/ActionBandDisableAll" : "0"
+  "actions/ActionLockCopy" : "0"
+  "actions/ActionLockToggle" : "0"
+  "actions/ActionRebuild" : "0"
+  "actions/ActionTweak" : "0"
+  "actions/ActionLoopHash" : "0"
+  "actions/ActionIdealize" : "0"
+  "actions/ActionIdealizeSS" : "0"
+# For some reason this is what Selection mode needs.
+  "actions/ActionRebuildPROTEIN" : "0"
+  "actions/ActionSecStructFloatMenu" : "0"
+  "actions/ActionRotamerPicker" : "0"
+  "actions/ALIGN_GUIDE" : "0"
+  "actions/MinimizeNotes" : "0"
+# Any new tools which should be turned off for most intros should be added here.
+  "actions/ActionMPNNMutate" : "0"
+}

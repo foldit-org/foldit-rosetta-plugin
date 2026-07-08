@@ -1,0 +1,828 @@
+triazole
+ Schrodinger Suite 2021-1.
+ 
+  8  8  0  0  1  0            999 V2000
+    0.7429   -0.9364    0.2335 N   0  0  0  0  0  0
+    1.1289    0.3770    0.2113 C   0  0  0  0  0  0
+   -0.0249    1.0551    0.4085 C   0  0  0  0  0  0
+   -1.0626    0.1309    0.5423 N   0  0  0  0  0  0
+   -0.5852   -1.0727    0.4346 N   0  0  0  0  0  0
+    1.3668   -1.7197    0.1150 H   0  0  0  0  0  0
+    2.1193    0.7298    0.0687 H   0  0  0  0  0  0
+   -0.1251    2.1240    0.4546 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  2  3  2  0  0  0
+  2  7  1  0  0  0
+  3  4  1  0  0  0
+  3  8  1  0  0  0
+  4  5  2  0  0  0
+M  END
+> <ReactionCenter>
+0 1
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+4 2
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+0 1 2
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3 3 4 4 0
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4 2 0 3 1
+
+$$$$
+imidazole
+   OpenBabel06292117233D
+
+  9  9  0  0  0  0  0  0  0  0999 V2000
+   -1.1788    0.0082   -0.0008 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3345    1.0931    0.0003 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9753    0.6883   -0.0003 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9326   -0.6239   -0.0011 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3541   -1.0826    0.0015 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2557   -0.0783   -0.0022 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5988    2.1427    0.0009 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7876   -1.2868   -0.0034 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6370   -2.0527    0.0038 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  7  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0 1
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+4 2
+
+> <NumberofSingleAtomBindingSites>
+4					
+
+> <ReactionCenterSingleAtomBind>
+0 1 3 4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7 8
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+2 3 3 4 4 0
+
+> <TwoAtomBindBondedHeavy>
+1 4 2 0 3 1
+
+$$$$
+benzene
+OpenBabel06292116543D
+
+ 12 12  0  0  0  0  0  0  0  0999 V2000
+   -0.7600    1.1691   -0.0005 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6329    1.2447   -0.0012 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3947    0.0765    0.0004 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7641   -1.1677    0.0027 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6288   -1.2432    0.0001 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3907   -0.0751   -0.0015 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3536    2.0792    0.0005 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1243    2.2140   -0.0028 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4799    0.1355   -0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3576   -2.0778    0.0063 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1202   -2.2126   -0.0005 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4759   -0.1340   -0.0035 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  6  1  0  0  0  0
+  1  7  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  8  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  9  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4 10  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5 11  1  0  0  0  0
+  6 12  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0 1
+
+> <ReactionCenterHydrogen>
+5 2
+
+> <ReactionCenterBondedHeavy>
+11 2
+
+> <NumberofSingleAtomBindingSites>
+1					
+
+> <ReactionCenterSingleAtomBind>
+0
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6
+
+> <NumberofTwoAtomBindingSites>
+1
+
+> <ReactionCenterTwoAtomBind>
+1 2
+
+> <TwoAtomBindBondedHeavy>
+0 3
+
+$$$$
+furan
+ Schrodinger Suite 2021-1.
+ 
+  9  9  0  0  1  0            999 V2000
+    0.7822   -0.9013    0.1844 O   0  0  0  0  0  0
+    1.0565    0.4425    0.2461 C   0  0  0  0  0  0
+   -0.0802    1.1528    0.2915 C   0  0  0  0  0  0
+   -1.1351    0.2452    0.1763 C   0  0  0  0  0  0
+   -0.5895   -0.9920    0.1609 C   0  0  0  0  0  0
+    2.0352    0.8724    0.2570 H   0  0  0  0  0  0
+   -0.1074    2.1949    0.3764 H   0  0  0  0  0  0
+   -2.1537    0.4891    0.1282 H   0  0  0  0  0  0
+   -1.1008   -1.9392    0.1310 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  4  8  1  0  0  0
+  5  9  1  0  0  0
+M  END
+> <ReactionCenter>
+1 2
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+0 3
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+1 2
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4
+
+$$$$
+thiophene
+                    3D
+ Schrodinger Suite 2021-1.
+  9  9  0  0  1  0            999 V2000
+    1.0908   -1.2504    0.0738 S   0  0  0  0  0  0
+    1.1785    0.4683    0.0492 C   0  0  0  0  0  0
+   -0.0192    1.0911    0.0947 C   0  0  0  0  0  0
+   -1.0821    0.1759    0.0900 C   0  0  0  0  0  0
+   -0.6279   -1.1078    0.1178 C   0  0  0  0  0  0
+    2.0874    0.9623    0.0032 H   0  0  0  0  0  0
+   -0.1154    2.1502    0.1182 H   0  0  0  0  0  0
+   -2.1044    0.4870    0.0757 H   0  0  0  0  0  0
+   -1.1944   -1.9826    0.1588 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  4  8  1  0  0  0
+  5  9  1  0  0  0
+M  END
+> <ReactionCenter>
+1 2
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+0 3
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+1 2
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4
+
+$$$$
+pyrrole
+ Schrodinger Suite 2021-1.
+ 
+ 10 10  0  0  1  0            999 V2000
+    0.7839   -0.9337    0.2918 N   0  0  0  0  0  0
+    1.1264    0.3924    0.3024 C   0  0  0  0  0  0
+   -0.0220    1.1006    0.1823 C   0  0  0  0  0  0
+   -1.0952    0.1869    0.1369 C   0  0  0  0  0  0
+   -0.5693   -1.0693    0.1799 C   0  0  0  0  0  0
+    1.4090   -1.7137    0.3566 H   0  0  0  0  0  0	
+    2.1262    0.7310    0.3884 H   0  0  0  0  0  0
+   -0.0909    2.1586    0.1405 H   0  0  0  0  0  0
+   -2.1188    0.4721    0.0732 H   0  0  0  0  0  0
+   -0.9824   -2.0493    0.1498 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  2  3  2  0  0  0
+  2  7  1  0  0  0
+  3  4  1  0  0  0
+  3  8  1  0  0  0
+  4  5  2  0  0  0
+  4  9  1  0  0  0
+  5 10  1  0  0  0
+M  END
+> <ReactionCenter>
+0 4
+
+> <ReactionCenterHydrogen>
+5 9
+
+> <ReactionCenterBondedHeavy>
+3 1
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+0 1 2
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4
+
+$$$$
+pyrazole
+ Schrodinger Suite 2021-1.
+ 
+  9  9  0  0  1  0            999 V2000
+    0.7282   -0.9230    0.3947 N   0  0  0  0  0  0
+    1.1107    0.3767    0.1781 C   0  0  0  0  0  0
+   -0.0207    1.1117    0.0899 C   0  0  0  0  0  0
+   -1.0630    0.1871    0.3007 C   0  0  0  0  0  0
+   -0.6158   -1.0513    0.4773 N   0  0  0  0  0  0
+    1.3668   -1.7057    0.4780 H   0  0  0  0  0  0
+    2.1166    0.7144    0.0958 H   0  0  0  0  0  0
+   -0.0942    2.1549   -0.0900 H   0  0  0  0  0  0
+   -2.1024    0.4524    0.3152 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  2  3  2  0  0  0
+  2  7  1  0  0  0
+  3  4  1  0  0  0
+  3  8  1  0  0  0
+  4  5  2  0  0  0
+  4  9  1  0  0  0
+M  END
+> <ReactionCenter>
+0 1
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+3 2
+
+> <NumberofSingleAtomBindingSites>
+4
+
+> <ReactionCenterSingleAtomBind>
+0 1 2 3
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7 8
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+4 0 0 1 1 2 2 3 3 4
+
+> <TwoAtomBindBondedHeavy>
+3 1 4 2 0 3 1 4 2 0
+
+$$$$
+pyrimidine
+                    3D
+ Schrodinger Suite 2021-1.
+ 10 10  0  0  1  0            999 V2000
+    0.0006    1.3484    0.2556 C   0  0  0  0  0  0
+   -1.1795    0.6234    0.2501 C   0  0  0  0  0  0
+   -1.1878   -0.7152    0.3034 N   0  0  0  0  0  0
+   -0.0021   -1.3107    0.3599 C   0  0  0  0  0  0
+    1.1848   -0.7153    0.3649 N   0  0  0  0  0  0
+    1.1793    0.6230    0.3113 C   0  0  0  0  0  0
+    0.0018    2.4134    0.2180 H   0  0  0  0  0  0
+   -2.0946    1.1775    0.1998 H   0  0  0  0  0  0
+   -0.0022   -2.3867    0.4081 H   0  0  0  0  0  0
+    2.0965    1.1755    0.3085 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  3  4  2  0  0  0
+  4  5  1  0  0  0
+  4  9  1  0  0  0
+  5  6  2  0  0  0
+  6 10  1  0  0  0
+M  END
+> <ReactionCenter>
+3 4
+
+> <ReactionCenterHydrogen>
+8
+
+> <ReactionCenterBondedHeavy>
+2 5
+
+> <NumberofSingleAtomBindingSites>
+4
+
+> <ReactionCenterSingleAtomBind>
+0 1 3 5
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6 7 8 9
+
+> <NumberofTwoAtomBindingSites>
+6
+
+> <ReactionCenterTwoAtomBind>
+3 4 4 5 5 0 0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+2 5 3 0 4 1 5 2 0 3 1 4
+
+$$$$
+pyrazine
+ Schrodinger Suite 2021-1.
+ 
+ 10 10  0  0  1  0            999 V2000
+    0.0383    1.3363    0.1695 C   0  0  0  0  0  0
+   -1.1765    0.6381    0.2940 C   0  0  0  0  0  0
+   -1.2330   -0.7080    0.3934 N   0  0  0  0  0  0
+   -0.0377   -1.3365    0.3596 C   0  0  0  0  0  0
+    1.1767   -0.6387    0.2256 C   0  0  0  0  0  0
+    1.2333    0.7077    0.1310 N   0  0  0  0  0  0
+    0.0160    2.4043    0.1039 H   0  0  0  0  0  0
+   -2.0905    1.1929    0.3098 H   0  0  0  0  0  0
+   -0.0157   -2.4039    0.4386 H   0  0  0  0  0  0
+    2.0904   -1.1932    0.1962 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  3  4  2  0  0  0
+  4  5  1  0  0  0
+  4  9  1  0  0  0
+  5  6  2  0  0  0
+  5 10  1  0  0  0
+M  END
+> <ReactionCenter>
+0 1
+
+> <ReactionCenterHydrogen>
+6 7
+
+> <ReactionCenterBondedHeavy>
+5 2
+
+> <NumberofSingleAtomBindingSites>
+4
+
+> <ReactionCenterSingleAtomBind>
+0 1 3 4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6 7 8 9
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+2 3 3 4 4 5
+
+> <TwoAtomBindBondedHeavy>
+1 4 2 5 3 0
+
+$$$$
+cyclopentadien
+ Schrodinger Suite 2021-1.
+ 
+ 11 11  0  0  1  0            999 V2000
+    0.8614   -0.9788    0.4079 C   0  0  0  0  0  0
+    1.0799    0.4924    0.3833 C   0  0  0  0  0  0
+   -0.0566    1.1491    0.2770 C   0  0  0  0  0  0
+   -1.1280    0.2213    0.2913 C   0  0  0  0  0  0
+   -0.6290   -1.0078    0.3377 C   0  0  0  0  0  0
+    1.2368   -1.3853   -0.5207 H   0  0  0  0  0  0
+    1.2206   -1.3786    1.3502 H   0  0  0  0  0  0
+    2.0334    0.9459    0.3927 H   0  0  0  0  0  0
+   -0.1105    2.1856    0.1337 H   0  0  0  0  0  0
+   -2.1434    0.4904    0.2826 H   0  0  0  0  0  0
+   -1.1673   -1.9285    0.3194 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1  7  1  0  0  0
+  2  3  2  0  0  0
+  2  8  1  0  0  0
+  3  4  1  0  0  0
+  3  9  1  0  0  0
+  4  5  2  0  0  0
+  4 10  1  0  0  0
+  5 11  1  0  0  0
+M  END
+> <ReactionCenter>
+0 4
+
+> <ReactionCenterHydrogen>
+5 11
+
+> <ReactionCenterBondedHeavy>
+3 1
+
+> <NumberofSingleAtomBindingSites>
+5
+
+> <ReactionCenterSingleAtomBind>
+0 1 2 3 4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 7 8 9 10
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4
+
+$$$$
+isoxazole
+                    3D
+ Schrodinger Suite 2021-1.
+  8  8  0  0  1  0            999 V2000
+    0.8108   -0.8755    0.0232 O   0  0  0  0  0  0
+    1.0702    0.4579    0.0023 C   0  0  0  0  0  0
+   -0.0667    1.1556    0.1216 C   0  0  0  0  0  0
+   -1.0754    0.1918    0.2208 C   0  0  0  0  0  0
+   -0.5799   -1.0351    0.1650 N   0  0  0  0  0  0
+    2.0405    0.8847   -0.0956 H   0  0  0  0  0  0
+   -0.1160    2.1967    0.1310 H   0  0  0  0  0  0
+   -2.1102    0.4421    0.3281 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  4  8  1  0  0  0
+M  END
+> <ReactionCenter>
+1 2
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+0 3
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+1 2 3
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+0 1 4 0 3 4 2 3 1 2
+
+> <TwoAtomBindBondedHeavy>
+4 2 3 1 1 0 1 4 0 3
+
+$$$$
+isothiazole
+ Schrodinger Suite 2021-1.
+ 
+  8  8  0  0  1  0            999 V2000
+    0.8535   -1.2826    0.1990 S   0  0  0  0  0  0
+    1.1279    0.4248    0.2638 C   0  0  0  0  0  0
+   -0.0464    1.0723    0.1671 C   0  0  0  0  0  0
+   -1.1138    0.1549    0.0436 C   0  0  0  0  0  0
+   -0.8142   -1.1273    0.0432 N   0  0  0  0  0  0
+    2.0573    0.9138    0.3631 H   0  0  0  0  0  0
+   -0.1196    2.1374    0.1848 H   0  0  0  0  0  0
+   -2.1236    0.4727   -0.0463 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  4  8  1  0  0  0
+M  END
+> <ReactionCenter>
+1 2
+
+> <ReactionCenterHydrogen>
+5 6
+
+> <ReactionCenterBondedHeavy>
+0 3
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+1 2 3
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3 3 4 4 0
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4 2 0 3 1
+
+$$$$
+oxazole
+                    3D
+ Schrodinger Suite 2021-1.
+  8  8  0  0  1  0            999 V2000
+    0.7721   -0.9062    0.3156 O   0  0  0  0  0  0
+    1.0442    0.4395    0.2604 C   0  0  0  0  0  0
+   -0.0973    1.1067   -0.0070 C   0  0  0  0  0  0
+   -1.1421    0.2084   -0.1330 N   0  0  0  0  0  0
+   -0.5716   -0.9770    0.0682 C   0  0  0  0  0  0
+    2.0135    0.8805    0.4077 H   0  0  0  0  0  0
+   -0.1401    2.1609   -0.0982 H   0  0  0  0  0  0
+   -1.1251   -1.9077    0.0375 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  5  8  1  0  0  0
+M  END
+> <ReactionCenter>
+4 3
+
+> <ReactionCenterHydrogen>
+7
+
+> <ReactionCenterBondedHeavy>
+0 2
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+1 2 4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+0 1 1 2 2 3 3 4 4 0
+
+> <TwoAtomBindBondedHeavy>
+4 2 0 3 1 4 2 0 3 1
+
+$$$$
+pyridazine
+ Schrodinger Suite 2021-1.
+ 
+ 10 10  0  0  1  0            999 V2000
+    1.1763   -0.6954    0.2439 C   0  0  0  0  0  0
+   -0.0493   -1.3354    0.0457 C   0  0  0  0  0  0
+   -1.2194   -0.6537   -0.0154 N   0  0  0  0  0  0
+   -1.2227    0.6827    0.1231 N   0  0  0  0  0  0
+   -0.0531    1.3444    0.3008 C   0  0  0  0  0  0
+    1.1767    0.6889    0.3536 C   0  0  0  0  0  0
+    2.0925   -1.2258    0.3139 H   0  0  0  0  0  0
+   -0.0306   -2.4008   -0.0680 H   0  0  0  0  0  0
+   -0.0308    2.4069    0.4194 H   0  0  0  0  0  0
+    2.0917    1.2162    0.4722 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  3  4  2  0  0  0
+  4  5  1  0  0  0
+  5  6  2  0  0  0
+  5  9  1  0  0  0
+  6 10  1  0  0  0
+M  END
+> <ReactionCenter>
+1 0
+
+> <ReactionCenterHydrogen>
+7 6
+
+> <ReactionCenterBondedHeavy>
+2 5
+
+> <NumberofSingleAtomBindingSites>
+4
+
+> <ReactionCenterSingleAtomBind>
+0 1 4 5
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6 7 8 9
+
+> <NumberofTwoAtomBindingSites>
+6
+
+> <ReactionCenterTwoAtomBind>
+3 4 4 5 5 0 0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+2 5 3 0 4 2 5 2 0 3 1 4
+
+$$$$
+thiazole
+ Schrodinger Suite 2021-1.
+ 
+  8  8  0  0  1  0            999 V2000
+    1.1440   -1.2692    0.4460 S   0  0  0  0  0  0
+    1.1870    0.4506    0.3936 C   0  0  0  0  0  0
+   -0.0222    1.0529    0.2936 C   0  0  0  0  0  0
+   -1.0654    0.1365    0.2518 N   0  0  0  0  0  0
+   -0.5812   -1.1060    0.3243 C   0  0  0  0  0  0
+    2.0834    0.9661    0.4375 H   0  0  0  0  0  0
+   -0.1336    2.1210    0.2536 H   0  0  0  0  0  0
+   -1.2019   -1.9533    0.3103 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  7  1  0  0  0
+  4  5  2  0  0  0
+  5  8  1  0  0  0
+M  END
+> <ReactionCenter>
+4 3
+
+> <ReactionCenterHydrogen>
+7
+
+> <ReactionCenterBondedHeavy>
+0 2
+
+> <NumberofSingleAtomBindingSites>
+3
+
+> <ReactionCenterSingleAtomBind>
+1 2 4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 6 7
+
+> <NumberofTwoAtomBindingSites>
+5
+
+> <ReactionCenterTwoAtomBind>
+3 4 4 0 0 1 1 2 2 3
+
+> <TwoAtomBindBondedHeavy>
+2 0 3 1 4 2 0 3 1 4
+
+$$$$
+pyridine
+ Schrodinger Suite 2021-1.
+ 
+ 11 11  0  0  1  0            999 V2000
+    1.1990   -0.6845    0.2412 C   0  0  0  0  0  0
+    1.1756    0.6992    0.3265 C   0  0  0  0  0  0
+   -0.0570    1.3504    0.3509 C   0  0  0  0  0  0
+   -1.2374    0.7029    0.3752 N   0  0  0  0  0  0
+   -1.1893   -0.6422    0.4133 C   0  0  0  0  0  0
+   -0.0006   -1.3697    0.3647 C   0  0  0  0  0  0
+    2.1115   -1.2021    0.0780 H   0  0  0  0  0  0
+    2.0889    1.2364    0.3823 H   0  0  0  0  0  0
+   -0.0404    2.4155    0.3154 H   0  0  0  0  0  0
+   -2.0965   -1.1997    0.4591 H   0  0  0  0  0  0
+    0.0049   -2.4281    0.4362 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  3  4  2  0  0  0
+  3  9  1  0  0  0
+  4  5  1  0  0  0
+  5  6  2  0  0  0
+  5 10  1  0  0  0
+  6 11  1  0  0  0
+M  END
+> <ReactionCenter>
+2 1
+
+> <ReactionCenterHydrogen>
+8 7
+
+> <ReactionCenterBondedHeavy>
+3 0
+
+> <NumberofSingleAtomBindingSites>
+5
+
+> <ReactionCenterSingleAtomBind>
+0 1 2 4 5
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6 7 8 9 10
+
+> <NumberofTwoAtomBindingSites>
+3
+
+> <ReactionCenterTwoAtomBind>
+2 3 4 5 5 0
+
+> <TwoAtomBindBondedHeavy>
+1 4 3 0 4 1
+
+$$$$

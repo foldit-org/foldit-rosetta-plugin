@@ -1,0 +1,24 @@
+## INTERACTIVE BEGIN
+
+patches/CtermProteinFull.txt
+patches/NtermProteinFull.txt
+patches/protein_cutpoint_upper.txt
+patches/protein_cutpoint_lower.txt
+patches/disulfide.txt
+
+patches/nucleic/dna/LowerDNA.txt
+patches/nucleic/dna/UpperDNA.txt
+patches/nucleic/dna/dna_cutpoint_upper.txt
+patches/nucleic/dna/dna_cutpoint_lower.txt
+patches/nucleic/dna/VirtualDNAPhosphate.txt
+
+patches/nucleic/rna/LowerRNA.txt
+patches/nucleic/rna/UpperRNA.txt
+patches/nucleic/rna/rna_cutpoint_lower.txt
+patches/nucleic/rna/rna_cutpoint_upper.txt
+patches/nucleic/rna/Virtual_Phosphate.txt
+patches/nucleic/rna/Virtual_O2prime_hydrogen.txt
+
+patches/RepulsiveOnly_fa.txt
+
+## INTERACTIVE END

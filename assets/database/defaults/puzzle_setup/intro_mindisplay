@@ -1,0 +1,25 @@
+version: 1
+{
+# Config for puzzles with a simplified display, but more full-featured tools
+ "puzzle_setup" : "intro"
+# gui taken from intro_minimal
+ "gui/simplified_filter_display" : "1"
+ "gui/disable_advanced_mode" : "1"
+ "gui/disable_tools_tab" : "1"
+ "gui/disable_action_options_tab" : "1"
+# "gui/disable_save_load" : "1"
+# "gui/disable_screenshot" : "1"
+# "gui/simple_undo" : "1"
+# "gui/disable_view_options" : "1"
+# actions taken from intro_standard
+ "actions/ActionPullSidechain" : "1"
+ "actions/ActionLocalMinimizePull" : "1"
+ "actions/ActionLockCopy" : "1"
+ "actions/ActionLockToggle" : "1"
+ "actions/ActionBandAddDrag" : "1"
+ "actions/ActionBandDelete" : "1"
+ "actions/ActionBandEnableAll" : "1"
+ "actions/ActionBandDisableAll" : "1"
+ "actions/ActionRepack" : "1"
+ "actions/ActionGlobalMinimize" : "1"
+}

@@ -1,0 +1,18 @@
+version: 1
+{
+# Config for most late-stage intro puzzles.
+ "puzzle_setup" : "intro"
+# "gui/start_on_tools_tab" : "1"
+ "gui/disable_action_options_tab" : "1"
+ "gui/disable_pull_pie_menu" : "0"
+ "actions/ActionPullSidechain" : "1"
+ "actions/ActionLocalMinimizePull" : "1"
+ "actions/ActionLockCopy" : "1"
+ "actions/ActionLockToggle" : "1"
+ "actions/ActionBandAddDrag" : "1"
+ "actions/ActionBandDelete" : "1"
+ "actions/ActionBandEnableAll" : "1"
+ "actions/ActionBandDisableAll" : "1"
+ "actions/ActionRepack" : "1"
+ "actions/ActionGlobalMinimize" : "1"
+}

@@ -1,0 +1,249 @@
+trifluoromethyl
+OpenBabel06162112453D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    0.9369   -0.0290   -0.0928 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5038   -1.2185    0.3760 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5038    0.9324    0.7501 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2864   -0.0350   -0.0579 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5726    0.1476   -1.1081 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+M  END
+> <ReactionCenter>
+1
+
+> <ReactionCenterHydrogen>
+3
+
+> <NumberofSingleAtomBindingSites>
+1
+
+> <ReactionCenterSingleAtomBind>
+0
+
+> <ReactionCenterHydrogenSingleAtomBind>
+4
+
+$$$$
+carboxamide
+ OpenBabel07052120303D
+
+  6  5  0  0  0  0  0  0  0  0999 V2000
+    0.9669    0.0133   -0.0754 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3243    0.0700   -0.0637 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9489    1.0974    0.1489 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4570   -0.8403   -0.2520 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4540    0.8672    0.1012 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8001   -0.9032   -0.2650 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  6  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0
+
+> <ReactionCenterHydrogen>
+4
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+1 0
+
+> <ReactionCenterHydrogenSingleAtomBind>
+5 4
+
+$$$$
+carboxylic acid
+   OpenBabel07072121253D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    1.0146    0.0430   -0.0953 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2299    0.0279   -0.0316 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9278   -0.2387    1.0885 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9022    0.2298   -0.8799 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8914   -0.2026    0.9367 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+M  END
+> <ReactionCenter>
+1
+
+> <ReactionCenterHydrogen>
+3
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+1 2
+
+> <ReactionCenterHydrogenSingleAtomBind>
+3 4
+
+$$$$
+sulfate
+ OpenBabel07261816243D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   -1.3350   -0.2200    2.4690 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4450   -2.8100    2.2750 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5393   -1.3158    0.3462 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3611   -1.4282    2.6921 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2890   -1.4580    2.1110 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  5  2  0  0  0  0
+  2  5  2  0  0  0  0
+  3  5  1  0  0  0  0
+  4  5  1  0  0  0  0
+M  CHG  1   3  -1
+M  END
+>  <ReactionCenter>
+4
+
+>  <ReactionCenterHydrogen>
+3
+
+> <NumberofSingleAtomBindingSites>
+1
+
+> <ReactionCenterSingleAtomBind>
+4
+
+> <ReactionCenterHydrogenSingleAtomBind>
+3
+
+$$$$
+sulfone
+ OpenBabel06162110283D
+ 
+  8  7  0  0  0  0  0  0  0  0999 V2000
+    1.0572   -0.0627   -0.0720 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8272   -0.1059   -0.0407 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2622    0.1793    1.3115 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2623   -1.2968   -0.7424 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7248    0.8868    0.3509 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6823   -0.8952    0.5264 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7248   -0.1610   -1.1068 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2435    0.9326   -0.7875 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  1  7  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  2  0  0  0  0
+  2  8  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0
+
+> <ReactionCenterHydrogen>
+5
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+0 1
+
+> <ReactionCenterHydrogenSingleAtomBind>
+6 7
+
+$$$$
+sulfoxide
+ OpenBabel06162110433D
+ 
+  7  6  0  0  0  0  0  0  0  0999 V2000
+    1.0789   -0.0591   -0.0723 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8829   -0.0946   -0.1599 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3465   -1.2954    0.6104 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7235    0.8934   -0.4710 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7661   -0.1641    0.9689 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6768   -0.8823   -0.6665 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1650    0.8487    0.7120 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  7  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0
+
+> <ReactionCenterHydrogen>
+4
+
+> <NumberofSingleAtomBindingSites>
+2
+
+> <ReactionCenterSingleAtomBind>
+0 1
+
+> <ReactionCenterHydrogenSingleAtomBind>
+3 6
+
+$$$$
+nitrile
+ OpenBabel06162114173D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+    1.0458   -0.0673   -0.0696 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2058   -0.0673   -0.0696 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0192   -0.0673   -0.0696 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  3  0  0  0  0
+  1  3  1  0  0  0  0
+M  END
+> <ReactionCenter>
+0
+
+> <ReactionCenterHydrogen>
+2
+
+> <NumberofSingleAtomBindingSites>
+1
+
+> <ReactionCenterSingleAtomBind>
+0
+
+> <ReactionCenterHydrogenSingleAtomBind>
+2
+
+$$$$
+phosphite ion
+ OpenBabel07261816183D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    1.0000   -0.4640    2.1240 P   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9570   -1.8340    2.9820 O   0  5  0  0  0  0  0  0  0  0  0  0
+    0.6120    0.7700    2.8820 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4910   -0.4530    1.4980 O   0  5  0  0  0  0  0  0  0  0  0  0
+    0.3027   -0.6712    1.1913 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  5  1  0  0  0  0
+  4  1  1  0  0  0  0
+M  END
+>  <ReactionCenter>
+0
+
+>  <ReactionCenterHydrogen>
+4
+
+> <NumberofSingleAtomBindingSites>
+1
+
+> <ReactionCenterSingleAtomBind>
+0
+
+> <ReactionCenterHydrogenSingleAtomBind>
+4
+
+$$$$

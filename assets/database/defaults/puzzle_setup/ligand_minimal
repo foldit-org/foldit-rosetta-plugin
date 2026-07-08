@@ -1,0 +1,13 @@
+version: 1
+{
+ "actions/ActionGlobalMinimizeBackbone" : "0"
+ "actions/ActionGlobalMinimizeSidechains" : "0"
+ "actions/ActionShowRamaMapPanel" : "0"
+ "actions/ActionResetSecondaryStructure" : "0"
+ "actions/ActionSecStructDSSP" : "0"
+ "actions/ActionLockCopy" : "0"
+ "actions/ActionLockToggle" : "0"
+ "actions/ActionShowStructureTool" : "0"
+ "actions/ActionShowNoteTool" : "0"
+ "gui/disable_action_options_tab" : "1"
+}

@@ -1,0 +1,22 @@
+version: 1
+{
+# Base-line setups for most standard dojo puzzles.
+  "move_tool_mode" : "none"
+  "allowed_macros" : "none"
+  "detect_disulfides" : "1"
+# Intended to be further overridden by other entries.
+  "gui/disable_tracks" : "1"
+  "gui/use_new_bubble_format" : "1"
+  "gui/start_with_selection_interface" : "1"
+  "gui/disable_interface_switch" : "1"
+# Defaults set explicitly for dojo puzzles
+  "actions/ActionShowRamaMapPanel" : "0"
+  "actions/ActionSecStructDSSP" : "0"
+  "actions/ActionResetSecondaryStructure" : "0"
+  "actions/ActionStandaloneResetPuzzle" : "0"
+# Defaults intended to be overridden if necessary
+  "actions/ActionRepackDesign" : "0"
+  "actions/ActionGlobalMinimizeBackbone" : "0"
+  "actions/ActionGlobalMinimizeSidechains" : "0"
+# Any new tools which should be turned off for most dojo mode puzzles should be added here.
+}

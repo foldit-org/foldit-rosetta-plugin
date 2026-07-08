@@ -1,0 +1,34 @@
+# beta_nov16_soft
+#   beta energy function following parameter refitting (Frank DiMaio and Hahnbeom Park), November 2016
+#    - this is "soft" version of beta_nov16, equivalent to "soft_rep" (for score12)
+ETABLE FA_STANDARD_SOFT
+METHOD_WEIGHTS ref 1.3535 2.9828 -1.9872 -2.0080 3.6543 -0.6290 0.5347 3.6828 -1.1870 3.0591 2.1654 -0.7549 -4.6330 -0.1943 -0.3519 -1.2864 -1.2064 3.5934 5.8434 2.7219
+fa_atr 1.0
+fa_rep 1.0
+fa_sol 1.0
+fa_intra_atr_xover4 1.0
+fa_intra_rep_xover4 1.0
+fa_intra_sol_xover4 1.0
+lk_ball 0.92
+lk_ball_iso -0.38
+lk_ball_bridge -0.33
+lk_ball_bridge_uncpl -0.33
+fa_elec 1.0
+fa_intra_elec 1.0
+pro_close 1.25
+hbond_sr_bb 1.0
+hbond_lr_bb 1.0
+hbond_bb_sc 1.0
+hbond_sc 1.0
+dslf_fa13 1.25
+rama_prepro 0.50
+omega 0.48
+p_aa_pp 0.61
+fa_dun_rot 0.76
+fa_dun_dev 0.69
+fa_dun_semi 0.78
+hxl_tors 1.0
+gen_bonded 1.0
+ref 1
+INCLUDE_INTRA_RES_PROTEIN
+NO_HB_ENV_DEP

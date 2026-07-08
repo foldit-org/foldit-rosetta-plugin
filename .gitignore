@@ -23,6 +23,15 @@
 *.dll
 *.so.*
 
+# Committed per-platform fallback binaries (vendored). These are the
+# opt-out for `cargo xtask setup-plugins`, so re-include them despite the
+# blanket shared-library ignores above.
+!prebuilt/**
+
+# Opt-in local build output (`cargo xtask setup-plugins`), shadows the
+# vendored prebuilt binary at runtime. Never committed.
+local/
+
 
 # Fortran module files
 *.mod
@@ -68,8 +77,7 @@ vcpkg_installed/
 Testing/
 .cache/
 
-# Foldit rosetta plugin: build-installed Rosetta database (fetched/built, never committed)
-assets/database/
+# Foldit rosetta plugin: downloaded model weights (fetched, never committed)
 assets/models
 
 # Foldit rosetta plugin: UI panel build artifacts
