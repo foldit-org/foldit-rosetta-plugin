@@ -16,8 +16,9 @@ binary = "rosetta_interactive"
 
 # Plugin-contributed panels. `entry`/`icon` are manifest-relative; the
 # frontend dynamically imports the ES module and auto-derives a launcher
-# button from each entry. The .mjs is built on demand
-# (`cargo xtask build-rosetta-panel`) and is not committed.
+# button from each entry. The .mjs is built by
+# `cargo xtask setup-plugins rosetta --from-source` (bun build in ui/); a
+# prebuilt copy is committed as the default.
 [[panels]]
 id = "rama_map"
 title = "Rama Map"

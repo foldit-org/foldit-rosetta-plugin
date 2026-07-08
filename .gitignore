@@ -80,6 +80,17 @@ Testing/
 # Foldit rosetta plugin: downloaded model weights (fetched, never committed)
 assets/models
 
-# Foldit rosetta plugin: UI panel build artifacts
+# Foldit rosetta plugin: UI panel build artifacts. Ignore the dist CONTENTS
+# (not the dir itself) so the vendored entrypoint below can be re-included --
+# git cannot re-include a file whose parent directory is excluded.
 ui/node_modules/
-ui/dist/
+ui/dist/*
+# Vendored panel entrypoint, committed alongside the prebuilt binary.
+!ui/dist/rama_map.mjs
+
+# Foldit rosetta plugin: vendored Rosetta database (the committed fallback).
+# Re-include the whole tree despite the generic *.pdb / *.lib / *.a / *.o
+# patterns above, which would otherwise silently drop structure and rotamer
+# files (e.g. spin-label .pdb rotamers, *.bbdep.rotamers.lib) and ship a
+# runtime-broken database.
+!assets/database/**

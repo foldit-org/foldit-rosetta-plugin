@@ -1,0 +1,12 @@
+# Build descriptor for `cargo xtask setup-plugins`. Read only by xtask; the
+# runtime never parses this file (runtime config lives in plugin.toml).
+
+[native]
+# Plugin-owned build recipe, run with cwd = this plugin dir and the FOLDIT_*
+# env contract xtask exports (workspace/molex/proto/abi dirs, target triple,
+# plugin + local dir, clean flag). It installs the built dylib into local/.
+recipe = "scripts/build.sh"
+
+[ui]
+# bun install + bun run build in this dir; output stays at ui/dist/.
+dir = "ui"
