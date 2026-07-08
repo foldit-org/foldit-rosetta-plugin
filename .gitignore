@@ -77,6 +77,11 @@ vcpkg_installed/
 Testing/
 .cache/
 
+# Foldit rosetta plugin: the Rosetta source, cloned on demand by
+# scripts/build.sh for --from-source builds. NOT a submodule (see .gitmodules)
+# and never committed -- it is several GB cloned and much larger built.
+deps/rosetta-interactive/
+
 # Foldit rosetta plugin: downloaded model weights (fetched, never committed)
 assets/models
 

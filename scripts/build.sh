@@ -16,17 +16,21 @@ set -euo pipefail
 
 cmake_dir="$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source/cmake_4"
 
-# The Rosetta source is an opt-in submodule (marked `update = none` in
-# .gitmodules) so a plain clone never pulls its ~25 GB. Fetch it on demand for
-# this from-source build; --checkout overrides the `update = none` default.
-if [ ! -d "$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source" ]; then
-    echo "Fetching the rosetta-interactive source submodule (opt-in, ~25 GB)..."
-    git -C "$FOLDIT_PLUGIN_DIR" submodule update --init --checkout -- \
-        deps/rosetta-interactive
+# The Rosetta source (several GB to clone) is NOT a submodule -- a committed gitlink is
+# pulled by any recursive clone and would force the source on everyone. Clone
+# it on demand here, pinned to the commit the vendored binary was built from,
+# only for this from-source build. Skipped if it is already present.
+rosetta_src_dir="$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive"
+rosetta_src_url="https://github.com/RosettaCommons/main"
+rosetta_src_branch="interactive/runner"
+rosetta_src_ref="eb16693e1f8ae99f4ddfb70eaa7ec9e8c06e8333"
+if [ ! -d "$rosetta_src_dir/source" ]; then
+    echo "Cloning the Rosetta source on demand (several GB to clone) into $rosetta_src_dir ..."
+    git clone --branch "$rosetta_src_branch" "$rosetta_src_url" "$rosetta_src_dir"
+    git -C "$rosetta_src_dir" checkout "$rosetta_src_ref"
 fi
-if [ ! -d "$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source" ]; then
-    echo "Rosetta source still not found under deps/rosetta-interactive after \
-submodule init." >&2
+if [ ! -d "$rosetta_src_dir/source" ]; then
+    echo "Rosetta source still not found under deps/rosetta-interactive after clone." >&2
     exit 1
 fi
 
