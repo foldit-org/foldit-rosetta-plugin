@@ -70,6 +70,7 @@ Testing/
 
 # Foldit rosetta plugin: build-installed Rosetta database (fetched/built, never committed)
 assets/database/
+assets/models
 
 # Foldit rosetta plugin: UI panel build artifacts
 ui/node_modules/

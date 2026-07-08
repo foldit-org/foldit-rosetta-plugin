@@ -8,7 +8,7 @@
         "solid-js": "^1.9.10",
       },
       "devDependencies": {
-        "@foldit/plugin-bridge": "file:../../../../../webview/packages/plugin-bridge",
+        "@foldit/plugin-bridge": "file:../../../webview/packages/plugin-bridge",
         "typescript": "^5.8.3",
         "vite": "^5.4.21",
         "vite-plugin-solid": "^2.11.10",
@@ -98,7 +98,7 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.21.5", "", { "os": "win32", "cpu": "x64" }, "sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw=="],
 
-    "@foldit/plugin-bridge": ["@foldit/plugin-bridge@file:../../../../../webview/packages/plugin-bridge", { "devDependencies": { "typescript": "^5.8.3", "vite": "^5.4.21", "vite-plugin-solid": "^2.11.10" }, "peerDependencies": { "solid-js": "^1.9.10", "vite": "^5.4.21", "vite-plugin-solid": "^2.11.10" } }],
+    "@foldit/plugin-bridge": ["@foldit/plugin-bridge@file:../../../webview/packages/plugin-bridge", { "devDependencies": { "typescript": "^5.8.3", "vite": "^5.4.21", "vite-plugin-solid": "^2.11.10" }, "peerDependencies": { "solid-js": "^1.9.10", "vite": "^5.4.21", "vite-plugin-solid": "^2.11.10" } }],
 
     "@jridgewell/gen-mapping": ["@jridgewell/gen-mapping@0.3.13", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA=="],
 
