@@ -11,7 +11,7 @@
 #   FOLDIT_LOCAL_DIR        <plugin_dir>/local (install target, gitignored)
 #   FOLDIT_RECIPE_CLEAN     "1" to wipe the cmake build dir first
 #
-# TODO: a Windows build.ps1 equivalent is not yet ported.
+# Windows: the xtask automatically selects scripts/build.ps1 instead.
 set -euo pipefail
 
 cmake_dir="$FOLDIT_PLUGIN_DIR/deps/rosetta-interactive/source/cmake_4"
