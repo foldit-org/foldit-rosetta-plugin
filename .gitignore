@@ -99,3 +99,8 @@ ui/dist/*
 # files (e.g. spin-label .pdb rotamers, *.bbdep.rotamers.lib) and ship a
 # runtime-broken database.
 !assets/database/**
+
+# ...except Rosetta's own binary rotamer caches, which it regenerates from the
+# .lib text files on first use. Committing them would ship a machine-specific
+# artifact and churn the tree on every run.
+assets/database/**/*.lib.bin
